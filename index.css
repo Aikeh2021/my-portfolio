@@ -1,3 +1,4 @@
+/* Style for "Your Name" tab on navbar */
 .navbar-brand {
     font: white;
     font-family: "Amiri", serif;
@@ -6,10 +7,12 @@
     background-color: rgb(16, 180, 180);
 }
 
+/* Link to brick background applied to body of website */
 body {
     background-image: url("https://www.zingerbug.com/Backgrounds/background_images/light_gray_bricks_pattern.gif");
 }
 
+/* "About Me" style modifications */
 h1  {
         font-family: "Amiri", serif;
         font-size: 35px;
@@ -17,6 +20,7 @@ h1  {
         color: rgb(16, 180, 180);
         padding-top: 30px;
         padding-bottom: 20px;
+/* Style modifications for line under "About me" heading */
         text-decoration-line:underline;
         text-decoration-color: rgb(219, 207, 185)
 }
@@ -29,4 +33,3 @@ section {
     background-color: white;
 }
 
-p {padding: 150px;}
