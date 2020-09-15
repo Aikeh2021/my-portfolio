@@ -16,3 +16,11 @@ h1  {
         font-weight: bolder;
         color: rgb(16, 180, 180);
 }
+
+section {
+    background-color: white;
+}
+
+p {
+    padding-left: 80px;
+  }
