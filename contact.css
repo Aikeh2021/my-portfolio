@@ -25,6 +25,8 @@ body {
 .container {
     background-color: white;
     padding: 30px;
+    margin-left: 2%;
+    width: 50%;
 }
 /* Webpage button style changes */
 .block {background-color: rgb(16, 180, 180);

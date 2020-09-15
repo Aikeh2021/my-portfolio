@@ -16,6 +16,13 @@ body {
     background-image: url("https://www.zingerbug.com/Backgrounds/background_images/light_gray_bricks_pattern.gif");
 }
 
+/* Container style modifications */
+.container {
+    background-color: white;
+    padding-left: 40px;
+    margin-left: 2%;
+}
+
 /* "About Me" style modifications */
 h1  {
         font-family: "Amiri", serif;
@@ -24,17 +31,13 @@ h1  {
         color: rgb(16, 180, 180);
         padding-top: 30px;
         padding-bottom: 20px;
+}
+
 /* Style modifications for line under "About me" heading */
         /* text-decoration-line:underline;
         text-decoration-color: rgb(219, 207, 185) */
 }
 
-.container {
-    background-color: white;
-    padding-left: 40px;
-    margin-left: 2%;
-    /* width: 50%;
-    /* margin-left: 2%; */ 
-}
+
 
 
