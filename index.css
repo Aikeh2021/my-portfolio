@@ -17,12 +17,16 @@ h1  {
         color: rgb(16, 180, 180);
         padding-top: 30px;
         padding-bottom: 20px;
+        text-decoration-line:underline;
+        text-decoration-color: rgb(219, 207, 185)
 }
 
+.container {
+    width: 50%;
+    margin-left: 2%;
+}
 section {
     background-color: white;
 }
 
-p {
-    padding-left: 80px;
-  }
+p {padding: 150px;}
