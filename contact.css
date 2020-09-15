@@ -1,3 +1,13 @@
+/* style modifications for the actual navbar */
+.bg-light {
+    background-color: white;
+}
+
+/* Your Name navbar tab style modifications */
+.navbar-brand {
+    color: white;
+}
+
 /* Styling for h1 heading on contact sheet */
 h1  {
     font-family: "Amiri", serif;
