@@ -17,13 +17,16 @@ h1  {
     padding-top: 30px;
 }
 
+/* Styling for horizontal line under h1 */
 hr {
     padding-bottom: 20px;
 }
+
 /* Link to brick background applied to body of website */
 body {
     background-image: url("https://www.zingerbug.com/Backgrounds/background_images/light_gray_bricks_pattern.gif");
 }
+
 /* White border around container of the website content */
 .container {
     background-color: white;
