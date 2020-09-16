@@ -5,6 +5,8 @@ body {
 
 .container {
     background-color: white;
+    margin-left: 2%;
+    padding-bottom: 40px;
 }
 
 h1  {
