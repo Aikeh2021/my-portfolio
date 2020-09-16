@@ -22,7 +22,6 @@ body {
     margin-left: 2%;
     width: 70%;
 }
-    /* padding-left: 40px;
 
 /* "About Me" style modifications */
 h1  {
@@ -33,6 +32,7 @@ h1  {
     padding-top: 30px;
 }
 
+/* Horizontal line under h1 style modifications */
 hr {
     padding-bottom: 20px;
 }
@@ -43,6 +43,7 @@ hr {
     margin: 1px 20px 5px 0px;
 }
 
+/* Style changes around About Me content to add white space around the material */
 .AboutMeBlock {
     padding: 30px;
     margin-bottom: 10px;
