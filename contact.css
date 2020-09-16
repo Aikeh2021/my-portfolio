@@ -36,13 +36,22 @@ body {
     background-color: white;
     padding: 30px;
     margin-left: 2%;
-    width: 50%;
+    width: 95%;
 }
 /* Webpage button style changes */
 .block {background-color: rgb(16, 180, 180);
     padding: 20px;
     display: block;
     color: white;
-    width: 20%;
+    width: auto;
     border: none;
+}
+
+/* /* Viewport 401px and higher */
+@media screen and (min-width: 401px) {
+    .container {
+        width: 80%;
+    }
+    .block {width: 48%;}
+
 }
