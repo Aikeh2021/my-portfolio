@@ -74,7 +74,7 @@ Hopefully on my next assingment I'll utilize my new study habits to make up for 
 ## Forgetting To Push
 
 As mentioned previously, my lackluster strategy for tackling this assignment really threw off my productivity. I actually ended up restarting my assignment halfway through completing it. As a result, I completed large jumps of work with few pushes in between. I restarted my assignment because I realized the navbar I created was done incorrectly and the way I began the repository made it very hard to find after I quit the Visual Studio Code application.
-I intentionally listed the steps of how to create a repository in the installation section so that if I ever forget, I can revisit this Readme.md file to give myself a refresher.
+I intentionally listed the steps of how to create a repository in the installation section so that if I ever forget, I can revisit this Readme file to give myself a refresher.
 
 
 ## Credits
