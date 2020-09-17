@@ -52,6 +52,8 @@ body {
     .container {
         width: 80%;
     }
-    .block {width: 48%;}
+    .block {
+        width: 48%;
+    }
 
 }
