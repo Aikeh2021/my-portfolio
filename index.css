@@ -1,7 +1,9 @@
+/* Your Name navbar tab pseudoclass color change */
 .navbar-light .navbar-brand:hover {
     color: white;
 }
 
+/* Your Name navbar tab style modifications */
 .navbar-light .navbar-brand {
     color: white;
     font-family: "Amiri", serif;
@@ -47,9 +49,16 @@ hr {
 
 /* Style changes around About Me content to add white space around the material */
 .AboutMeBlock {
-    padding: 30px;
+    /* padding: 0px; */
     margin-bottom: 10px;
+    width: 100%;
 }
 
-
+/* /* Viewport 425px and lower */
+@media screen and (max-width: 425px){
+    #AboutImage {
+        width: 160px;
+        height: 160px;
+    }
+}
 
