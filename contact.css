@@ -41,13 +41,16 @@ body {
     border-radius: 5px;
 }
 /* Webpage button style changes */
-.block {background-color: rgb(16, 180, 180);
+.block {
+    background-color: rgb(16, 180, 180);
     padding: 20px;
     display: block;
     color: white;
-    width: auto;
+    width: 20%;
     border: none;
-    border-radius: 5px;
+    font: "Amiri", serif;
+    font-size: 22px;
+    border-radius: 10px;
 }
 
 /* Website's footer styling */
@@ -57,13 +60,13 @@ body {
     font-size: 16px;
 }
 
-/* /* Viewport 401px and higher */
-@media screen and (min-width: 401px) {
+/* /* Viewport 767px and smaller */
+@media screen and (max-width: 767px) {
     .container {
         width: 80%;
     }
     .block {
-        width: 48%;
+        width: 60%;
     }
 
 }

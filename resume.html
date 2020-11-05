@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- <html class="no-js"> -->
-  <html lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,10 +31,11 @@
       crossorigin="anonymous"
     ></script>
     <!-- Link to index.css stylesheet I created -->
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="resume.css" />
   </head>
+
   <body>
-    <!-- navbar code from getbootstrap-->
+    <!-- navbar from getboostrap (altered)-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Your Name</a>
       <button
@@ -65,47 +66,39 @@
       </div>
     </nav>
     <!-- end of navbar -->
-    <br>
-    <br>
-    <br>
-<!-- Container for the content on the contact page -->
-  <div class="container">
-    <div class="row">
-      <div class="col-8">
-        <h1>Contact</h1>
+    <!-- Stylistic break tags to add space between the navbar and the container -->
+    <br />
+    <br />
+    <br />
+    <!-- Main website content, start of the container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <article class="ResumeBlock">
+            <h1>Resume/CV</h1>
+            <hr />
+            <div id="Resume Holder">
+              <a href="#" target="_blank"><img id="ResumeImage"
+              src="https://resumegenius.com/wp-content/uploads/2020/01/2020-Resume-Template-Gold.png" width="400" height="600"
+              alt="Sample Resume"
+            /></a>
+            </div>
+          </article>
+        </div>
       </div>
     </div>
-    <hr/>
-    <div class="row">
-      <div class="col-8">
-<!-- Form code from getboostrap (altered)-->
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">E-mail</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-          </div>
-        <button type="submit" class="block">Submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
-<!-- Stylistic break tags to add space before the bottom of the page -->
-<br />
-<br />
-<br />
-<!-- Footer -->
-<nav class="navbar navbar-light bg-light justify-content-center">
-  <a class="navbar-brand" href="#">Email Me | </a>
-  <a class="navbar-brand" href="#" target="_blank">Let's Connect on LinkedIn | </a>
-  <a class="navbar-brand" href="#" target="_blank">View My Github </a>
-</nav>
-</body>
+
+    <!-- Stylistic break tags to add space before the bottom of the page -->
+    <br />
+    <br />
+    <br />
+    <!-- Footer -->
+    <nav class="navbar navbar-light bg-light justify-content-center">
+      <a class="navbar-brand" href="#">Email Me | </a>
+      <a class="navbar-brand" href="#" target="_blank"
+        >Let's Connect on LinkedIn |
+      </a>
+      <a class="navbar-brand" href="#" target="_blank">View My Github </a>
+    </nav>
+  </body>
 </html>
